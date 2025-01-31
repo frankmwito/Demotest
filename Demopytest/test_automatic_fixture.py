@@ -40,7 +40,7 @@ def test_signup(setup_teardown1):
     first_name = faker.first_name()  
     last_name = faker.last_name()
     email = faker.email()
-    telephone = faker.phone_number()  # Fixed
+    telephone = faker.phone_number()  
     password = faker.password()
 
     # Hover over My Account
