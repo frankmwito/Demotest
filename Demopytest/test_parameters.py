@@ -8,6 +8,8 @@ import pytest
                          [("25", "25", "50"),
                           ("10", "10", "30"),
                           ("30", "40", "70")])
+
+
 def tes_lambdaest_two_input_fields(num1, num2, expected_total):
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.maximize_window()
